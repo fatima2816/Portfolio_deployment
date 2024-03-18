@@ -1,0 +1,531 @@
+
+/*------------------------- Index page stylesheet---------------------------------------*/
+h1 {
+text-align: center;
+font-weight:bold;
+color:rgb(51,51,51);
+font-family: 'Roboto Slab', serif;
+font-size:36px;
+}
+
+.navbar{
+  overflow: hidden;
+  background-color:#549176 ;
+  font-family:  'Roboto Slab', serif;
+}
+.navbar a
+{
+    
+
+    color:white;
+    padding:14px 20px;
+    
+    background-color:#549176;
+    text-decoration: none;
+    font-size:30px;
+}
+
+.navbar a:hover
+{
+  background-color:#118a7e;
+  color:#103123;
+}
+.navbar a.active
+{
+  background-color: #103123;
+  color:white;
+}
+#Title{
+color:white;
+font-family: 'Roboto Slab', serif;
+font-size:36px;
+}
+
+header{
+height:510px;
+width: 100%;
+
+}
+
+
+.profile_icon{
+   width:100px;
+   border-radius:100%;
+
+   border:1px solid white;
+   margin: 50px 50px;
+   
+}
+
+.logo
+{
+  width:70px;
+  margin:-15px 5px;
+  padding:6px;
+  border-radius:100%;
+  
+  
+  
+}
+
+.portfolio
+{
+  width:100%;
+  height:480px;
+}
+
+
+
+.fastimg
+{
+  width:300px;
+  height:270px;
+  
+
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+p{
+  padding:10px;
+  font-size:18px;
+  color:rgb(51,51,51);
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height:32px;
+  text-align: center;
+}
+
+#p1
+{
+  top:-200px;
+  padding: 2px 800px;  
+}
+
+#w3
+{
+  position:relative;
+  padding: 2px 800px; 
+  font-family: 'Roboto Slab', serif;
+  top:-260px;
+ 
+
+}
+
+
+nav{
+height: 320px;
+width:  100%;
+
+ 
+}
+
+.nav_bar
+{
+  background: #93e4c1;
+}
+
+nav ul{
+list-style: none;
+text-align: right;
+margin-top: 70px;
+
+}
+
+.items{
+ 
+position: relative;
+text-align: center;
+bottom: 200px;
+}
+
+nav li{
+display: inline;
+padding: 8px;
+}
+
+nav a{
+position: relative;
+padding:20px;
+font-size: 36px;
+color:#42b4d6;
+text-decoration: none;
+}
+
+nav a:hover
+{
+  text-decoration: underline;
+}
+
+.university_link
+{
+  position: relative;
+top:-10px;
+font-size: 28px;
+color:#42b4d6;
+text-decoration: none;
+left:45px;
+
+}
+
+.university_link:hover
+{
+  text-decoration: underline;
+}
+
+
+.project_section
+{
+  background: #549176;
+
+}
+
+.projects
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height:320px;
+  padding: 0px 15px 0px 30px;
+  background: #549176;
+}
+.project
+{
+ 
+  width:24%;
+  height:60%;
+  display: inline-block;
+  background-color:lightgray;
+  
+  margin-top: 35px;
+}
+
+.project:hover
+{
+  transform: translateY(2.5px);
+  cursor: pointer;
+}
+
+h2
+{
+  padding:10px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  color:rgb(51,51,51);
+  font-size:36px;
+  
+}
+
+
+
+#p2
+{
+  padding:0px 10px;
+  font-size:18px;
+  color:rgb(51,51,51);
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height:32px;
+  
+  position:relative;
+  
+}
+
+.p3
+{
+  padding:20px;
+  font-size:18px;
+  color:rgb(51,51,51);
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height:32px;
+  
+}
+
+.p4
+{
+  padding:50px 0px;
+  font-size:18px;
+  color:rgb(51,51,51);
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height:32px;
+  text-align:center;
+}
+.work_experience
+{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height:320px;
+  padding: 0px 15px 0px 30px;
+  background: #3baea0; 
+}
+
+.work_box
+{
+  width:40%;
+  height:73%;
+  display: inline-block;
+  background-color:lightgray;
+  
+  margin-top: 35px;
+}
+
+#work1, #work2, #work3
+{
+  width: 30%;
+}
+
+.work_section
+{
+  background:#3baea0; 
+}
+
+
+dd
+{
+  padding:-10px 15px;
+  font-size:18px;
+  color:rgb(51,51,51);
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height:32px;
+  position: relative;
+  left:7px
+  
+
+}
+
+dt{
+  padding: 0px 10px;
+  font-size:18px;
+  color:rgb(51,51,51);
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height:32px;
+  
+ 
+}
+
+
+.Courses
+{
+	background: #118a7e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height:320px;
+  padding: 0px 15px 0px 30px;
+}
+.courses
+{
+  background: #118a7e;
+}
+.major_courses
+{
+  padding:0px 0px;
+  font-family: 'Roboto Slab', serif;
+}
+.c{
+
+  padding:0px;
+  font-size:18px;
+  color:rgb(51,51,51);
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height:32px;
+  text-align: center;
+}
+
+.course_nav
+{
+ 
+  width:25%;
+  height:60%;
+  display: inline-block;
+  background-color:lightgray;
+  margin-top: 35px;
+}
+
+
+.courseimg
+{
+  width:300px;
+  height:250px;
+  position:relative;
+  
+  top:10px;
+  
+}
+
+.Educational_History
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height:320px;
+  padding: 0px 15px 0px 30px;
+    background: #1f6f78; 
+}
+
+.education{
+  background: #1f6f78; 
+}
+
+.box
+{
+ 
+  width:25%;
+  height:70%;
+  display: inline-block;
+  background-color:lightgray;
+  
+  margin-top: 35px;
+}
+
+.footer
+{
+  background: #085f63;
+  
+}
+
+#footer
+{
+  padding:10px;
+  text-align: center;
+  color:white;
+}
+
+#footer_data
+{
+  padding:0px 120px;
+  color:white;
+  text-align: left;
+  position:relative;
+  top:31px;
+ 
+
+}
+
+.link_data
+{
+  text-align: left;
+  font-size: 18px;
+  position:relative;
+  right:2px;
+}
+
+
+/*-----------------------------------RESPONSIVENESSS---------------------------------------*/
+@media only screen and (max-width: 991px) {
+  
+  #Title
+  {
+    margin-left: 30%;
+  }
+
+  #eduTitle
+  {
+    margin-left: 40%;
+  }
+
+  .items
+  {
+    margin-left: 30%;
+  }
+
+  #proj1, #proj4,#work2
+  {
+    visibility: hidden;
+    width: 1.5%;
+  }
+
+  #proj2, #proj3,#course1,#course2
+  {
+  
+    width: 50%;
+    height: 65%;
+  }
+
+  #work1, #work3
+  {
+    width: 50%;
+    height: 65%;
+  }
+
+  #edu1, #edu2
+  {
+    height: 70%;
+    width: 40%;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px)
+ {
+    #Title
+    {
+      margin-right: 50%;
+      margin-left: 0px;
+    }
+    .items
+    {
+      top: -250px;
+      height: 50%;
+    }
+
+    .profile_icon
+    {
+      top: -250px;
+    }
+    #proj2, #edu2, #work3,#course2
+    {
+      visibility: hidden;
+      width: 0%;
+    }
+
+    #proj3, #work1,#course1
+    {
+      width: 100%;
+    }
+
+    #eduTitle
+    {
+      margin-left: 0px;
+    }
+
+    .education
+    {
+      height: 35%;
+    }
+    .Educational_History
+    {
+      flex-direction: column;
+      height: 250px;
+      margin-top: 35%;
+      align-items: center
+    }
+
+    #edu1
+    {
+      width: 100%;
+    }
+
+    .courses{
+      height: 35%;
+    }
+    .Courses{
+      flex-direction: column;
+      height: 250px;
+      margin-top: 35%;
+      align-items: center
+
+    }
+    #work1
+    {
+      height:35%;
+    }
+ }
+
+ 
